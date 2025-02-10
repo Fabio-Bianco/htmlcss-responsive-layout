@@ -17,12 +17,19 @@
     padding-left: 30px;
     padding-right: 30px;
    }
-   
-    span {
-        display: inline;
+
+   .prep {
+        
+        display: flex;
+        flex-wrap: wrap;
     }
+ 
+
 }
 
-.container {
-    display: inline-block;
-}
+
+
+   
+
+
+

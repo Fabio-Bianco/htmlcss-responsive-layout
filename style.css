@@ -19,6 +19,7 @@ h1 {
 }
 main{
     background-color: #f6f5f3;
+    font-family:
 }
 
 .sub-title {
@@ -37,6 +38,7 @@ span{
 .main-section{
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 img {
@@ -49,8 +51,4 @@ img {
     padding-top: 20px;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
 
