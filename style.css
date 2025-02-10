@@ -8,22 +8,25 @@
 
 
 h1 {
-
+    font-family: 'Nerko One', cursive;
+    text-align: center;
     font-size: 2rem;
     color: #ff9614;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
+    
 }
 main{
     background-color: #f6f5f3;
 }
 
-p {
+.sub-title {
     color:#b19999;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h2 {
+    font-family: 'Nerko One', cursive;
     color: #4e3969;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -37,7 +40,17 @@ span{
 }
 
 img {
-    width: 65%;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
+.prep{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 

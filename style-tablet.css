@@ -9,6 +9,7 @@
    h1{
     
      padding-left:  5px;
+     text-align: start;
 
     }
    
@@ -20,4 +21,8 @@
     span {
         display: inline;
     }
+}
+
+.container {
+    display: inline-block;
 }
