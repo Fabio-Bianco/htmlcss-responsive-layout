@@ -41,6 +41,10 @@ span{
     
 }
 
+.container {
+     margin-bottom: 20px;
+}
+
 img {
     margin-bottom: 20px;
     width: 100%;
@@ -51,4 +55,8 @@ img {
     padding-top: 20px;
 }
 
+.social-container {
+    display: flex;
+    justify-content: space-around;
 
+}
