@@ -12,18 +12,35 @@
      text-align: start;
 
     }
+
+   
    
    .main-section{
     padding-left: 30px;
     padding-right: 30px;
    }
 
-   .prep {
-        
+   .info {
+        font-size: ;
         display: flex;
-        flex-wrap: wrap;
+        justify-content: space-around;
     }
- 
+    span{
+        display: unset;
+    }
+
+  .social-container{
+    gap: 40px;
+  }
+ .social-container li {
+
+    width: calc(100%/3);
+
+ }
+
+ .article-container .img-due {
+    float: left;
+}
 
 }
 

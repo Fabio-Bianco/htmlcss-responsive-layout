@@ -5,28 +5,55 @@
     box-sizing: border-box;
 }
 
+img {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    descent-override: 
+ 
+}
+
+body{ 
+    
+    font-family: Montserrat;
+}
+
+
+header {
+    padding: 25px;
+    text-align: center;
+}
 
 h1 {
     font-family: 'Nerko One', cursive;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ff9614;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    
+    text-transform: uppercase;
+    text-shadow: gray;
 }
+
 main{
+    padding: 30px 25px;
     background-color: #f6f5f3;
-    font-family:
+    font-family: Monteserrat;
+
 }
+
 
 .sub-title {
     color:#b19999;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h2 {
+    font-size: 2rem;
     font-family: 'Nerko One', cursive;
     color: #4e3969;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -36,27 +63,89 @@ span{
 }
 
 .main-section{
+
+ background-color: white;
     padding-left: 10px;
     padding-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     
 }
 
 .container {
      margin-bottom: 20px;
+     line-height: 30px;
+     padding-top: 20px;
+    
 }
 
-img {
-    margin-bottom: 20px;
-    width: 100%;
+
+
+.info{
+
 }
 
-.prep{
-    line-height: 30px;
-    padding-top: 20px;
-}
-
+/* sicial cont, link text aline center */
 .social-container {
     display: flex;
     justify-content: space-around;
 
+}
+
+h3 {
+    margin-bottom: 50px;
+}
+
+.banner {
+    display: none;
+}
+
+.presentation {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 100px;
+    height: 3px;
+
+
+}
+
+.social-container {
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+.img-due {
+     margin: 0 auto 15px;
+     width: 60%;
+}
+
+.article-container {
+    line-height: 2;
+}
+/* footer */
+
+footer {
+     background-color: violet;
+     padding: 30px 20px;
+     color: white;
+     text-align: center;
+
+}
+
+footer .footer-menu {
+    color: inherit;
+}
+footer address {
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
